@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de ingreso</title>
+</head>
+<body>
+    <h1>Formulario de ingreso</h1>
+    <hr>
+    <form action="#" method="GET">
+        <label for="propietario"> Propietario: </label>
+        <input type="text" name="propietario" placeholder="Propietario" required>
+        <br><br>
+        <label for="placa">Placa:</label>
+        <input type="text" name="placa" placeholder="Placa"required>
+        <br><br>
+        <label for="marca">Marca:</label>
+        <select name="marca" id="" required>
+            <option value="default"  disabled selected >Escoja una opcion</option>
+            <option value="VW">Volkswagen</option>
+            <option value="BMW">BMW</option>
+            <option value="Nissan">Nissan</option>
+            <option value="Ford">Ford</option>
+        </select>
+        <br></br>
+        <label for="modelo">Modelo: </label>
+        <input type="text" name="modelo" placeholder="Modelo" required>
+        <br><br>
+        <label for="tipo">Tipo de servicio: </label>
+        <br>
+        <input type="checkbox" value="aceite" required>Cambio de aceite
+        <br>
+        <input type="checkbox" value="Balanceo" required>Balanceo
+        <br>
+        <input type="checkbox" value="Alineo" required>Alineo
+        <br>
+        <input type="checkbox" value="Lavado" required>Lavado
+        <br><br>
+        <label for="servicio">Servicio:</label>
+        <br>
+        <input type="radio" value="publico" name="servicio" required>Publico
+        <input type="radio" value="privado" name="servicio">Privado
+        <br><br>
+        <input type="submit" value = "Enviar datos">
+        <input type= "reset" value="Borrar datos">
+    </form>
+</body>
+</html>
